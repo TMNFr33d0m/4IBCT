@@ -1,0 +1,22 @@
+overviewText = "4IBCT Liberation";
+
+author = "4IBCT S2";
+OnLoadName = "4IBCT Liberation"; 
+OnLoadMission = "4IBCT"; 
+onLoadIntro = "Sgt. Foreskin's Raiders";
+briefingName = "Sgt. Foreskin's 4IBCT S2"; 
+
+respawn = 3;
+respawnDelay = 10;
+
+disabledAI = 1;
+
+enableDebugConsole = 1;
+scriptedPlayer = 1;
+
+class Header
+{
+	gameType = Sandbox;
+	minPlayers = 1;
+	maxPlayers = 31;
+};

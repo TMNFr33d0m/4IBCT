@@ -1,0 +1,6389 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=513;
+	class ItemIDProvider
+	{
+		nextID=334;
+	};
+	class MarkerIDProvider
+	{
+		nextID=2;
+	};
+	class Camera
+	{
+		pos[]={4025.5222,336.10403,3186.6382};
+		dir[]={-0.3714624,-0.33293712,-0.86679333};
+		up[]={-0.13116649,0.94292784,-0.30606818};
+		aside[]={-0.91922694,-1.376553e-006,0.39393806};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Structures_F_Civ_Camping",
+	"acex_sitting",
+	"cba_xeh",
+	"A3_Structures_F_Mil_Flags",
+	"po_factions_fic",
+	"A3_Structures_F_Walls",
+	"rhsusf_vehicles",
+	"rhsusf_c_m113",
+	"A3_Props_F_Enoch_Military_Equipment",
+	"rhsusf_c_commskit",
+	"CUP_CAMisc",
+	"A3_Props_F_Enoch_Military_Camps",
+	"A3_Structures_F_Enoch_Military_Camps",
+	"A3_Props_F_Enoch_Industrial_Supplies",
+	"A3_Structures_F_Enoch_Industrial_Cargo",
+	"CUP_Misc3_Config",
+	"CUP_Misc_e_Config",
+	"A3_Props_F_Enoch_Military_Decontamination",
+	"A3_Structures_F_Heli_Ind_Machines",
+	"acex_field_rations",
+	"ace_logistics_wirecutter",
+	"A3_Structures_F_Enoch_Military_Barracks",
+	"ace_map_gestures",
+	"A3_Modules_F_Multiplayer",
+	"A3_Ui_F",
+	"A3_Structures_F_Orange_Humanitarian_Camps",
+	"A3_Props_F_Orange_Humanitarian_Camps",
+	"A3_Props_F_Orange_Humanitarian_Garbage",
+	"A3_Modules_F",
+	"A3_Modules_F_Supports",
+	"rhsusf_c_troops",
+	"A3_Modules_F_Curator_Curator"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=24;
+		class Item0
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="acex_sitting";
+			name="ACEX - Sitting";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item2
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="po_factions_fic";
+			name="po_factions_fic";
+			author="Leight, Keeway";
+		};
+		class Item5
+		{
+			className="rhsusf_vehicles";
+			name="rhsusf_vehicles";
+		};
+		class Item6
+		{
+			className="rhsusf_c_m113";
+			name="M113A3 APC";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item7
+		{
+			className="A3_Props_F_Enoch";
+			name="Arma 3 Enoch - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
+			className="rhsusf_c_commskit";
+			name="Combat Net Radio System";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item9
+		{
+			className="CUP_CAMisc";
+			name="CUP_CAMisc";
+		};
+		class Item10
+		{
+			className="A3_Structures_F_Enoch_Military";
+			name="Arma 3 Enoch - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item11
+		{
+			className="A3_Structures_F_Enoch_Industrial";
+			name="Arma 3 Enoch - Industrial Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item12
+		{
+			className="CUP_Misc3_Config";
+			name="CUP_Misc3_Config";
+		};
+		class Item13
+		{
+			className="CUP_Misc_e_Config";
+			name="CUP_Misc_e_Config";
+		};
+		class Item14
+		{
+			className="A3_Structures_F_Heli";
+			name="Arma 3 Helicopters - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item15
+		{
+			className="acex_field_rations";
+			name="ACEX - Field Rations";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item16
+		{
+			className="ace_logistics_wirecutter";
+			name="ACE3 - Logistics Wire Cutter";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item17
+		{
+			className="ace_map_gestures";
+			name="ACE3 - Map Gestures";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item18
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item19
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item20
+		{
+			className="A3_Structures_F_Orange";
+			name="Arma 3 Orange - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item21
+		{
+			className="A3_Props_F_Orange";
+			name="Arma 3 Orange - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item22
+		{
+			className="rhsusf_c_troops";
+			name="RHSUSF Infantry & Equipment";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item23
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=14400841;
+class ScenarioData
+{
+	author="Fr33d0m";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2009;
+		day=29;
+		hour=11;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=143;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3971.7949,17.802095,3186.3975};
+				angles[]={6.255693,5.1613722,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=48;
+			type="Land_CampingChair_V2_F";
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3972.4707,17.822872,3187.0056};
+				angles[]={6.255693,5.8195381,0.0075011365};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=49;
+			type="Land_CampingChair_V2_F";
+			atlOffset=-5.7220459e-006;
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3972.8059,17.697849,3186.0522};
+				angles[]={6.255693,2.4002247,0.0075011365};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=50;
+			type="Land_CampingTable_small_F";
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3973.6438,17.795488,3185.6897};
+				angles[]={6.255693,2.1718593,0.0075011365};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=51;
+			type="Land_CampingChair_V2_F";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3973.0139,17.776665,3185.177};
+				angles[]={6.255693,2.8466201,0.0075011365};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=52;
+			type="Land_CampingChair_V2_F";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3974.9011,17.581161,3187.7559};
+				angles[]={6.2531958,0,0.0099949092};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=53;
+			type="Campfire_burning_F";
+			atlOffset=-1.1444092e-005;
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3974.1812,17.888069,3188.8718};
+				angles[]={6.2606897,5.8195381,0.010000871};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=54;
+			type="Land_CampingChair_V2_F";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3975.9009,17.894039,3188.7285};
+				angles[]={6.2731848,0.73578233,6.2806959};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=55;
+			type="Land_CampingChair_V2_F";
+			atlOffset=-7.6293945e-006;
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3976.093,17.853128,3186.8977};
+				angles[]={6.2531958,2.003021,6.278182};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=56;
+			type="Land_CampingChair_V2_F";
+			atlOffset=-5.7220459e-005;
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3983.1375,20.532143,3158.4431};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=58;
+			type="Flag_US_F";
+		};
+		class Item10
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3997.0427,22.142801,3178.3901};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=60;
+					type="LOP_RACS_Infantry_MG";
+				};
+				class Item1
+				{
+					dataType="Waypoint";
+					position[]={3997.0427,22.641363,3178.3401};
+					type="Hold";
+					combatMode="YELLOW";
+					combat="AWARE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=61;
+					atlOffset=0.5;
+					class AttachedTo
+					{
+						id=60;
+						offset[]={0,0.5,0};
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=59;
+		};
+		class Item11
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3971.1902,21.484911,3149.054};
+						angles[]={0,1.2588778,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=63;
+					type="LOP_RACS_Infantry_MG";
+				};
+				class Item1
+				{
+					dataType="Waypoint";
+					position[]={3971.1902,21.983473,3149.0039};
+					type="Hold";
+					combatMode="YELLOW";
+					combat="AWARE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=64;
+					atlOffset=0.5;
+					class AttachedTo
+					{
+						id=63;
+						offset[]={0,0.5,0};
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=62;
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3986.647,20.750172,3161.3459};
+				angles[]={0,5.425426,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				name="BaseGate";
+			};
+			id=70;
+			type="Land_BarGate_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3986.7002,18.991005,3161.5471};
+				angles[]={0,2.2940257,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=65;
+			type="Land_Mil_WiredFence_Gate_F";
+			atlOffset=-1.9073486e-006;
+		};
+		class Item14
+		{
+			dataType="Trigger";
+			position[]={3986.9021,16.689955,3161.532};
+			angle=2.2737801;
+			class Attributes
+			{
+				name="BASE1";
+				condition="call{this}";
+				onActivation="call{BaseGate animate [""Door_1_rot"", 1]}";
+				onDeactivation="call{BaseGate animate [""Door_1_rot"", 0] }";
+				sizeA=5;
+				sizeB=5;
+				sizeC=5;
+				repeatable=1;
+				activationBy="WEST";
+				isRectangle=1;
+			};
+			id=71;
+			type="EmptyDetectorArea10x10";
+			atlOffset=-1.9073486e-006;
+		};
+		class Item15
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3989.5737,16.869904,3167.6001};
+						angles[]={0,3.7176735,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=73;
+					type="LOP_RACS_Infantry_SL";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Waypoint";
+					position[]={3989.5066,16.866568,3167.3159};
+					type="Hold";
+					combatMode="YELLOW";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=74;
+					atlOffset=0.032520294;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=72;
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3992.1829,19.606585,3192.8364};
+				angles[]={6.268187,1.7492297,6.278194};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=79;
+			type="rhsusf_m1025_d_m2";
+			atlOffset=-9.727478e-005;
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3993.8796,19.539686,3197.2666};
+				angles[]={6.2332273,2.0987267,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=80;
+			type="rhsusf_m1025_d_Mk19";
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3996.116,19.558802,3200.9275};
+				angles[]={6.2581916,2.0992706,6.2756844};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=81;
+			type="rhsusf_m1043_d";
+			atlOffset=-0.0011768341;
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4001.9338,20.022928,3184.8086};
+				angles[]={6.268187,0.70153868,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=82;
+			type="rhsusf_m113d_usarmy_unarmed";
+			atlOffset=-0.00015258789;
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3966.8008,18.513931,3154.5254};
+				angles[]={6.270689,0,0.0075011365};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=87;
+			type="OmniDirectionalAntenna_01_sand_F";
+			atlOffset=-0.00032043457;
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3971.3027,17.708557,3156.2268};
+				angles[]={6.2556953,4.612041,0.0024897563};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=92;
+			type="cnr_base_obj";
+			atlOffset=0.88665962;
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3970.595,18.470333,3155.0527};
+				angles[]={6.2556953,0.61370856,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=93;
+			type="Vysilacka";
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3967.3208,18.120523,3153.3237};
+				angles[]={6.270689,0,0.0075011365};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=94;
+			type="Land_PortableWeatherStation_01_sand_F";
+			atlOffset=-6.4849854e-005;
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3982.8247,17.5145,3157.4854};
+				angles[]={0,2.4998796,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=95;
+			type="Land_PortableLight_02_double_sand_F";
+		};
+		class Item25
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3955.208,18.147371,3188.1282};
+				angles[]={0,5.3456721,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=96;
+			type="Land_PortableLight_02_quad_sand_F";
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3969.1013,16.893097,3154.9905};
+				angles[]={6.255693,3.8361764,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=97;
+			type="Land_PortableCabinet_01_4drawers_black_F";
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3968.6262,16.901596,3155.313};
+				angles[]={6.270689,3.8460097,6.270689};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=98;
+			type="Land_PortableCabinet_01_7drawers_black_F";
+		};
+		class Item28
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3971.0806,16.945953,3155.7888};
+				angles[]={6.255693,5.3809114,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=100;
+			type="Land_PortableDesk_01_sand_F";
+			atlOffset=1.9073486e-006;
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3970.3174,16.71258,3155.4875};
+				angles[]={6.255693,3.7548814,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=102;
+			type="Land_DeskChair_01_sand_F";
+		};
+		class Item30
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3973.6316,16.521561,3155.9548};
+				angles[]={6.268187,5.4443851,0.0074931863};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=105;
+			type="Land_ConnectorTent_01_floor_light_F";
+		};
+		class Item31
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3975.6819,16.59605,3158.6326};
+				angles[]={6.2606897,5.4432325,0.010000871};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=106;
+			type="Land_ConnectorTent_01_floor_light_F";
+		};
+		class Item32
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3973.8262,16.923172,3151.4414};
+				angles[]={0,5.4491963,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=107;
+			type="Land_WoodenBox_02_F";
+		};
+		class Item33
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3974.5496,16.944092,3152.2346};
+				angles[]={0,5.4384327,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=108;
+			type="Land_WoodenBox_02_F";
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3970.6328,17.706709,3162.269};
+				angles[]={6.2581916,2.2667289,0.0050033992};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=110;
+			type="Land_Cargo20_EMP_F";
+			atlOffset=-0.00022697449;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_virtualArsenal";
+					expression="if (!is3DEN && _value) then {['AmmoboxInit',[_this,true]] spawn BIS_fnc_arsenal}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item35
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3971.0439,17.648804,3155.7998};
+				angles[]={6.2556953,2.2702644,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=112;
+			type="Land_MultiScreenComputer_01_sand_F";
+		};
+		class Item36
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3971.3723,17.411222,3156.4365};
+				angles[]={6.2556953,4.6969862,0.0024897563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=113;
+			type="EvMap";
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3976.186,17.97764,3154.0747};
+				angles[]={0,2.2812326,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=114;
+			type="Map_for_briefing_EP1";
+			atlOffset=0.88536263;
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3967.8325,16.566406,3155.5815};
+				angles[]={6.270689,4.0265832,0.0075011365};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=118;
+			type="PowerCable_01_CurveShort_F";
+			atlOffset=0.046606064;
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3966.8831,16.670725,3155.6392};
+				angles[]={6.2432094,4.1266451,0.0074931863};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=120;
+			type="Land_BatteryPack_01_closed_sand_F";
+			atlOffset=0.034500122;
+		};
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3966.6052,16.528481,3156.4016};
+				angles[]={6.2432079,0,0.0074931863};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=116;
+			type="Land_PortableSolarPanel_01_sand_F";
+			atlOffset=-5.7220459e-006;
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3971.5671,17.446108,3156.4905};
+				angles[]={0,1.6411315,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=121;
+			type="Land_IPPhone_01_sand_F";
+			atlOffset=0.88662529;
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3978.4517,17.564247,3157.5562};
+				angles[]={6.2382159,4.6784821,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=122;
+			type="Land_TripodScreen_01_large_sand_F";
+		};
+		class Item43
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3974.6594,17.603756,3152.3506};
+				angles[]={0,2.2624648,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=123;
+			type="Land_PortableServer_01_sand_F";
+			atlOffset=0.96785545;
+		};
+		class Item44
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3965.877,16.850817,3155.2825};
+				angles[]={6.270689,2.3671,0.0075011365};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=124;
+			type="Land_PortableGenerator_01_sand_F";
+		};
+		class Item45
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3974.5193,17.893593,3152.4365};
+				angles[]={0,5.3780279,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=125;
+			type="Land_Router_01_sand_F";
+		};
+		class Item46
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3971.5405,17.432823,3156.0918};
+				angles[]={6.2556953,0,0.0024897563};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=126;
+			type="Land_Tablet_02_sand_F";
+			atlOffset=0.88703728;
+		};
+		class Item47
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3974.032,17.907944,3156.407};
+				angles[]={6.2631841,0.70858622,0.0075049158};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=47;
+			type="Land_MedicalTent_01_NATO_generic_open_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item48
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3972.2898,16.961027,3157.2849};
+				angles[]={6.2631893,0.68681765,0.0075011365};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=128;
+			type="TrashBagHolder_01_F";
+			atlOffset=-1.9073486e-005;
+		};
+		class Item49
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3973.6387,17.666895,3151.5688};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=130;
+			type="Land_TentLamp_01_standing_F";
+		};
+		class Item50
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3974.9739,19.676949,3157.5234};
+				angles[]={6.2746377,5.5915623,0.023890775};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=131;
+			type="Land_TentLamp_01_suspended_F";
+			atlOffset=3.0689278;
+		};
+		class Item51
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3942.9602,17.592403,3168.1155};
+				angles[]={6.2108126,2.2493815,0.047463283};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=133;
+			type="WaterPump_01_sand_F";
+			atlOffset=-2.8610229e-005;
+		};
+		class Item52
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4006.0605,18.36063,3182.656};
+				angles[]={0,2.3150103,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=136;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item53
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4011.7466,18.57811,3190.8879};
+				angles[]={0,2.0250809,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=137;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item54
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4014.9319,19.936169,3200.3081};
+				angles[]={0,4.9919128,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=138;
+			type="Land_Mil_WiredFence_Gate_F";
+		};
+		class Item55
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4012.0298,18.959726,3207.8672};
+				angles[]={0,0.49607116,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=142;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item56
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4002.803,19.05714,3211.7471};
+				angles[]={0,0.29938099,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=143;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item57
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3994.7334,19.018248,3208.9827};
+				angles[]={0,5.3519468,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=144;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item58
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3990.2537,18.83073,3200.2485};
+				angles[]={0,2.0250809,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=145;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item59
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3988.9866,18.541449,3193.7458};
+				angles[]={0,1.1983849,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=146;
+			type="Land_New_WiredFence_5m_F";
+		};
+		class Item60
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4012.6897,18.532595,3205.292};
+				angles[]={6.248199,5.1290631,0.017500184};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=147;
+			type="Land_GuardBox_01_brown_F";
+		};
+		class Item61
+		{
+			dataType="Trigger";
+			position[]={4015.4761,17.650938,3200.189};
+			angle=5.1048436;
+			class Attributes
+			{
+				name="BASE2";
+				condition="call{this}";
+				onActivation="call{BaseGate_1 animate [""Door_1_rot"", 1]}";
+				onDeactivation="call{BaseGate_1 animate [""Door_1_rot"", 0] }";
+				sizeA=5;
+				sizeB=5;
+				sizeC=5;
+				repeatable=1;
+				activationBy="WEST";
+				isRectangle=1;
+			};
+			id=148;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item62
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4015.0081,21.691036,3200.0791};
+				angles[]={0,5.0003333,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				name="BaseGate_1";
+			};
+			id=149;
+			type="Land_BarGate_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item63
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4013.3245,17.709766,3204.8027};
+						angles[]={0,3.4077492,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=151;
+					type="LOP_RACS_Infantry_Rifleman_2";
+				};
+				class Item1
+				{
+					dataType="Waypoint";
+					position[]={4013.4312,17.663675,3204.8176};
+					type="Hold";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=152;
+					atlOffset=1.335144e-005;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=150;
+		};
+		class Item64
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3998.3269,19.612858,3204.5076};
+				angles[]={6.2631893,2.0992706,6.268187};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=153;
+			type="rhsusf_m1043_d";
+		};
+		class Item65
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3999.9211,19.706045,3208.24};
+				angles[]={6.2531958,2.0992706,6.2731905};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=154;
+			type="rhsusf_m1043_d";
+			atlOffset=8.5830688e-005;
+		};
+		class Item66
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3990.2966,17.684114,3168.498};
+				angles[]={0,0.77763736,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=155;
+			type="Land_GuardBox_01_brown_F";
+		};
+		class Item67
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3998.5859,20.065514,3187.7241};
+				angles[]={6.268187,0.70153868,6.2806959};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=157;
+			type="rhsusf_m113d_usarmy_unarmed";
+		};
+		class Item68
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3936.6531,16.562033,3172.532};
+			};
+			id=161;
+			type="ace_map_gestures_moduleGroupSettings";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_map_gestures_moduleGroupSettings_leadColor";
+					expression="_this setVariable ['leadColor',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1,0.88,0,0.95";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_map_gestures_moduleGroupSettings_color";
+					expression="_this setVariable ['color',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1,0.88,0,0.7";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item69
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4006.175,17.48328,3198.0671};
+				angles[]={6.2631865,0,6.2656851};
+			};
+			id=165;
+			type="ModuleRespawnVehicle_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleRespawnVehicle_F_ForcedRespawn";
+					expression="_this setVariable ['ForcedRespawn',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleRespawnVehicle_F_Init";
+					expression="_this setVariable ['Init',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleRespawnVehicle_F_RespawnWhenDisabled";
+					expression="_this setVariable ['RespawnWhenDisabled',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleRespawnVehicle_F_DesertedDistance";
+					expression="_this setVariable ['DesertedDistance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleRespawnVehicle_F_PositionType";
+					expression="_this setVariable ['PositionType',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleRespawnVehicle_F_RespawnCount";
+					expression="_this setVariable ['RespawnCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleRespawnVehicle_F_Position";
+					expression="_this setVariable ['Position',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleRespawnVehicle_F_Wreck";
+					expression="_this setVariable ['Wreck',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="2";
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleRespawnVehicle_F_Delay";
+					expression="_this setVariable ['Delay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleRespawnVehicle_F_ShowNotification";
+					expression="_this setVariable ['ShowNotification',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				nAttributes=10;
+			};
+		};
+		class Item70
+		{
+			dataType="Marker";
+			position[]={3954.9937,16.862322,3175.3032};
+			name="respawn_west";
+			text="respawn_west";
+			type="Empty";
+			id=167;
+		};
+		class Item71
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3956.1399,16.819082,3173.7749};
+				angles[]={6.2506976,5.4466839,0.010000871};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=173;
+			type="Land_MedicalTent_01_floor_dark_F";
+		};
+		class Item72
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3956.1091,18.188435,3173.624};
+				angles[]={6.2506976,5.450314,0.010000871};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=174;
+			type="Land_MedicalTent_01_white_generic_open_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="MedSign_Hide";
+					expression="_this animateSource ['MedSign_Hide',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SolarPanel1_Hide";
+					expression="_this animateSource ['SolarPanel1_Hide',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item73
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3951.8398,17.035461,3174.0918};
+				angles[]={6.2432079,0.74245214,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=175;
+			type="Land_Stretcher_01_sand_F";
+			atlOffset=-2.6702881e-005;
+		};
+		class Item74
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3951.8401,17.691515,3173.2366};
+				angles[]={6.2432079,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=176;
+			type="Land_IntravenStand_01_2bags_F";
+			atlOffset=-8.2015991e-005;
+		};
+		class Item75
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3951.9297,16.841307,3174.7341};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=177;
+			type="MedicalGarbage_01_Gloves_F";
+			atlOffset=1.9073486e-006;
+		};
+		class Item76
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3952.5295,16.846674,3174.948};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=178;
+			type="MedicalGarbage_01_Bandage_F";
+		};
+		class Item77
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3951.8904,16.842871,3174.8452};
+				angles[]={6.2432079,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=179;
+			type="Land_IntravenBag_01_empty_F";
+		};
+		class Item78
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3951.8127,16.901081,3172.3027};
+				angles[]={6.2432079,3.8932412,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=180;
+			type="Land_FirstAidKit_01_closed_F";
+			atlOffset=-3.8146973e-006;
+		};
+		class Item79
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3953.0786,17.662613,3172.1733};
+				angles[]={6.2432065,0,0.012501417};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=182;
+			type="Land_IntravenStand_01_2bags_F";
+			atlOffset=-1.1444092e-005;
+		};
+		class Item80
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3954.0618,16.990612,3172.3262};
+				angles[]={6.2432065,0.74245214,0.012501417};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=183;
+			type="Land_Stretcher_01_sand_F";
+			atlOffset=-4.196167e-005;
+		};
+		class Item81
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3954.5056,17.654352,3170.769};
+				angles[]={6.268187,0,0.012501417};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=184;
+			type="Land_IntravenStand_01_2bags_F";
+			atlOffset=-7.6293945e-005;
+		};
+		class Item82
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3955.6187,16.980921,3170.9368};
+				angles[]={6.268187,0.74245214,0.012501417};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=185;
+			type="Land_Stretcher_01_sand_F";
+			atlOffset=-2.8610229e-005;
+		};
+		class Item83
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3955.0552,16.737244,3170.937};
+				angles[]={6.268187,0,0.012501417};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=187;
+			type="BloodPool_01_Medium_Old_F";
+		};
+		class Item84
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3958.1475,16.776945,3171.7068};
+				angles[]={6.2506976,2.3602812,0.010000871};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=188;
+			type="BloodTrail_01_Old_F";
+		};
+		class Item85
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3955.6025,16.781136,3171.5491};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=190;
+			type="MedicalGarbage_01_1x1_v3_F";
+		};
+		class Item86
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3954.4087,16.788822,3172.9424};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=191;
+			type="MedicalGarbage_01_FirstAidKit_F";
+		};
+		class Item87
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3954.6116,17.312531,3173.0488};
+				angles[]={6.2432065,0,0.012510949};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=192;
+			type="Land_Stethoscope_01_F";
+			atlOffset=0.011417389;
+		};
+		class Item88
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3956.0085,17.401119,3177.9138};
+				angles[]={6.248199,0.78142744,0.012501417};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=194;
+			type="Land_PortableDesk_01_sand_F";
+			atlOffset=-0.00017166138;
+		};
+		class Item89
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3956.6963,18.251118,3177.3445};
+				angles[]={6.248199,0.71677977,0.012510949};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=195;
+			type="Land_PortableCabinet_01_bookcase_olive_F";
+			atlOffset=0.8871212;
+		};
+		class Item90
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3953.7085,16.714924,3170.9045};
+				angles[]={6.268187,0,0.012501417};
+			};
+			areaSize[]={5,-1,5};
+			flags=1;
+			id=196;
+			type="ModuleHideTerrainObjects_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item91
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3222.0295,7.8236418,17.40625};
+			};
+			id=202;
+			type="SupportProvider_Virtual_CAS_Bombing";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SupportProvider_Virtual_CAS_Bombing_BIS_SUPP_cooldown";
+					expression="_this setVariable ['BIS_SUPP_cooldown',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="SupportProvider_Virtual_CAS_Bombing_BIS_SUPP_vehicleInit";
+					expression="_this setVariable ['BIS_SUPP_vehicleInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SupportProvider_Virtual_CAS_Bombing_BIS_SUPP_vehicles";
+					expression="_this setVariable ['BIS_SUPP_vehicles',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[]";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SupportProvider_Virtual_CAS_Bombing_BIS_SUPP_filter";
+					expression="_this setVariable ['BIS_SUPP_filter',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Side";
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item92
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3347.5586,10.232617,17.40625};
+			};
+			id=203;
+			type="SupportProvider_Virtual_CAS_Heli";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SupportProvider_Virtual_CAS_Heli_BIS_SUPP_cooldown";
+					expression="_this setVariable ['BIS_SUPP_cooldown',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="SupportProvider_Virtual_CAS_Heli_BIS_SUPP_vehicleInit";
+					expression="_this setVariable ['BIS_SUPP_vehicleInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SupportProvider_Virtual_CAS_Heli_BIS_SUPP_vehicles";
+					expression="_this setVariable ['BIS_SUPP_vehicles',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[]";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SupportProvider_Virtual_CAS_Heli_BIS_SUPP_filter";
+					expression="_this setVariable ['BIS_SUPP_filter',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Side";
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item93
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3449.1938,11.625746,16.084961};
+				angles[]={0.0050033992,0,0.037482351};
+			};
+			id=204;
+			type="SupportProvider_Virtual_Transport";
+			atlOffset=0.33438492;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SupportProvider_Virtual_Transport_BIS_SUPP_filter";
+					expression="_this setVariable ['BIS_SUPP_filter',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Side";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="SupportProvider_Virtual_Transport_BIS_SUPP_vehicles";
+					expression="_this setVariable ['BIS_SUPP_vehicles',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[]";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SupportProvider_Virtual_Transport_BIS_SUPP_vehicleInit";
+					expression="_this setVariable ['BIS_SUPP_vehicleInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SupportProvider_Virtual_Transport_BIS_SUPP_cooldown";
+					expression="_this setVariable ['BIS_SUPP_cooldown',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item94
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3561.6182,22.843021,13.442871};
+				angles[]={0.010000871,0,0.18776169};
+			};
+			id=205;
+			type="SupportProvider_Virtual_Drop";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SupportProvider_Virtual_Drop_BIS_SUPP_cooldown";
+					expression="_this setVariable ['BIS_SUPP_cooldown',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="SupportProvider_Virtual_Drop_BIS_SUPP_vehicleInit";
+					expression="_this setVariable ['BIS_SUPP_vehicleInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SupportProvider_Virtual_Drop_BIS_SUPP_vehicles";
+					expression="_this setVariable ['BIS_SUPP_vehicles',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[]";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SupportProvider_Virtual_Drop_BIS_SUPP_filter";
+					expression="_this setVariable ['BIS_SUPP_filter',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Side";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="SupportProvider_Virtual_Drop_BIS_SUPP_crateInit";
+					expression="_this setVariable ['BIS_SUPP_crateInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item95
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3971.9734,16.23101,3137.9629};
+			};
+			id=206;
+			type="SupportRequester";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SupportRequester_BIS_SUPP_limit_UAV";
+					expression="_this setVariable ['BIS_SUPP_limit_UAV',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="SupportRequester_BIS_SUPP_custom_HQ";
+					expression="_this setVariable ['BIS_SUPP_custom_HQ',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SupportRequester_BIS_SUPP_limit_Transport";
+					expression="_this setVariable ['BIS_SUPP_limit_Transport',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SupportRequester_BIS_SUPP_limit_Drop";
+					expression="_this setVariable ['BIS_SUPP_limit_Drop',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="SupportRequester_BIS_SUPP_limit_CAS_Heli";
+					expression="_this setVariable ['BIS_SUPP_limit_CAS_Heli',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="SupportRequester_BIS_SUPP_limit_Artillery";
+					expression="_this setVariable ['BIS_SUPP_limit_Artillery',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="SupportRequester_BIS_SUPP_limit_CAS_Bombing";
+					expression="_this setVariable ['BIS_SUPP_limit_CAS_Bombing',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="-1";
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item96
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5286.6523,89.278236,2884.7817};
+			};
+			id=207;
+			type="SupportProvider_Virtual_Artillery";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SupportProvider_Virtual_Artillery_BIS_SUPP_filter";
+					expression="_this setVariable ['BIS_SUPP_filter',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Side";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="SupportProvider_Virtual_Artillery_BIS_SUPP_vehicleInit";
+					expression="_this setVariable ['BIS_SUPP_vehicleInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SupportProvider_Virtual_Artillery_BIS_SUPP_vehicles";
+					expression="_this setVariable ['BIS_SUPP_vehicles',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[]";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SupportProvider_Virtual_Artillery_BIS_SUPP_cooldown";
+					expression="_this setVariable ['BIS_SUPP_cooldown',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item97
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3976.438,16.53838,3155.408};
+						angles[]={0,5.0906191,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="LIEUTENANT";
+						init="call{hint ""The platoon leader is responsible for planning patrol routes, assigning tasks, and positioning and employing the Soldiers under his command. The platoon leader and the platoon sergeant, along with the radiotelephone operator, make up the headquarters section of the platoon."";}";
+						name="PL";
+						description="1st Platoon Leader";
+						isPlayer=1;
+						isPlayable=1;
+					};
+					id=225;
+					type="rhsusf_army_ocp_officer";
+					atlOffset=1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="Enh_HoldAction";
+							expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"ARRAY"
+										};
+									};
+									class value
+									{
+										items=14;
+										class Item0
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+										class Item1
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+											};
+										};
+										class Item2
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+											};
+										};
+										class Item3
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="true";
+											};
+										};
+										class Item4
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="true";
+											};
+										};
+										class Item5
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+										class Item6
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+										class Item7
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+										class Item8
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+										class Item9
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=10;
+											};
+										};
+										class Item10
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=1000;
+											};
+										};
+										class Item11
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+										class Item12
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=1;
+											};
+										};
+										class Item13
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+									};
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="Enh_AmbientAnimations";
+							expression="		if !(_value # 0 isEqualTo '') then		{			_value params ['_animSet','_anims','_canExit','_attach'];						_this setVariable ['Enh_ambientAnimations_anims',_anims];			_this disableAI 'all';			if (_attach && !is3DEN) then			{				private _logic = group _this createUnit ['Logic',getPosATL _this,[],0,'NONE'];				_this setVariable ['Enh_ambientAnimations_logic',_logic];				[_this,_logic] call BIS_fnc_attachToRelative;			};						Enh_fnc_ambientAnimations_play =			{				params ['_unit'];				private _anim = selectRandom (_unit getVariable ['Enh_ambientAnimations_anims',[]]);				[_unit,_anim] remoteExec ['switchMove',0];			};						Enh_fnc_ambientAnimations_exit =			{				params ['_unit'];				if (_unit getVariable ['Enh_ambientAnimations_exit',false]) exitWith {false};				_unit setVariable ['Enh_ambientAnimations_exit',true];				detach _unit;				deleteVehicle (_unit getVariable ['Enh_ambientAnimations_logic',objNull]);				[_unit,''] remoteExec ['switchMove',0];								_unit enableAI 'all';								_unit removeEventHandler ['Killed',_unit getVariable ['Enh_EHKilled',-1]];				_unit removeEventHandler ['Dammaged',_unit getVariable ['Enh_EHDammaged',-1]];				_unit removeEventHandler ['AnimDone',_unit getVariable ['Enh_EHAnimDone',-1]];			};						_EHAnimDone = _this addEventHandler			[				'AnimDone',				{					params ['_unit'];					if (alive _unit) then					{						_unit call Enh_fnc_ambientAnimations_play;					}					else					{						_unit call Enh_fnc_ambientAnimations_exit;					};				}			];			_this setVariable ['Enh_EHAnimDone',_EHAnimDone];						if (_canExit) then			{				private _EHKilled = _this addEventHandler				[					'Killed',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHKilled',_EHKilled];				private _EHDammaged = _this addEventHandler				[					'Dammaged',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHDammaged',_EHDammaged];				_this spawn				{					params ['_unit'];					waitUntil					{						sleep 1; !isNull (_unit findNearestEnemy _unit) || (_unit getVariable ['Enh_ambientAnimations_exit',false])					};					_unit call Enh_fnc_ambientAnimations_exit;				};			};			_this call Enh_fnc_ambientAnimations_play;		};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"ARRAY"
+										};
+									};
+									class value
+									{
+										items=4;
+										class Item0
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+										class Item1
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"ARRAY"
+													};
+												};
+											};
+										};
+										class Item2
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+										class Item3
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=224;
+			atlOffset=1.9073486e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Spartan Red Six";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item98
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3974.2817,16.547535,3156.9993};
+						angles[]={0,2.271162,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="call{hint ""The platoon sergeant is the second in command of the platoon. He assists and advises the platoon leader, handles requests from squad leaders for ammunition, food and water and he is responsible for overseeing administrative tasks, training, logistics and maintenance.""; }";
+						name="PS";
+						description="1st Platoon Sergeant";
+						isPlayable=1;
+					};
+					id=227;
+					type="rhsusf_army_ocp_officer";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=226;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Spartan Red Five";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item99
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3975.4641,16.587654,3158.3423};
+						angles[]={0,2.30181,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="call{hint ""The platoon’s lead medic is responsible for directing the unit’s aid and litter teams, which are responsible for first-aid and evacuation of casualties. The medic is also responsible for the general health and hygiene of the platoon."";}";
+						name="PM";
+						description="1st Platoon Medic";
+						isPlayable=1;
+					};
+					id=231;
+					type="rhsusf_army_ocp_medic";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=230;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Spartan Red Angel";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item100
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3974.8372,16.565094,3157.6182};
+						angles[]={0,2.3016529,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="call{hint ""The radio operator is responsible for maintaining communications with company headquarters and within the patrol."";}";
+						name="PRO";
+						description="1st Platoon Radio Operator";
+						isPlayable=1;
+					};
+					id=233;
+					type="rhsusf_army_ocp_officer";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=232;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Spartan Red Romeo";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item101
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3973.7478,16.531422,3156.3938};
+						angles[]={0,2.2720346,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="call{hint ""The forward observer is the eyes and ears of the platoon. He is responsible for locating targets and calling for adjusting indirect fire support. He knows and understands the operational terrain, the tactical situation and the unit’s scheme of maneuver and priority fires."";}";
+						name="PFO";
+						description="1st Platoon Forward Observer";
+						isPlayable=1;
+					};
+					id=235;
+					type="rhsusf_army_ocp_fso";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=234;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Spartan Red Foxtrot";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item102
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=13;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3967.6479,16.9559,3175.0715};
+						angles[]={0,2.3080409,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="call{hint ""The squad leader is the tactical center of the team, and he is responsible for carrying out the mission. He is also responsible for reporting up the chain of command, overseeing the maintenance of his squad’s weapons and equipment, and tactically deploying his squad during missions and patrols.""; }";
+						name="SL11";
+						description="1st Platoon, 1st Squad Leader";
+						isPlayable=1;
+					};
+					id=237;
+					type="rhsusf_army_ocp_squadleader";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3957.9695,17.082397,3181.2009};
+						angles[]={0,5.4276419,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="call{hint ""The team leader controls the movement of his fire team, along with the rate and placement of fire. He leads from the front and uses the proper commands and signals. The team leader is responsible for accountability, and keeps track of weapons and equipment."";}";
+						name="TL11";
+						description="1st Platoon, 1st Squad Team Leader";
+						isPlayable=1;
+					};
+					id=238;
+					type="rhsusf_army_ocp_teamleader";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3959.1104,17.044811,3180.1899};
+						angles[]={0,5.3945861,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="R111";
+						description="1st Platoon, 1st Squad Rifleman";
+						isPlayable=1;
+					};
+					id=241;
+					type="rhsusf_army_ocp_rifleman_m4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3960.4324,17.017061,3179.075};
+						angles[]={0,5.330689,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="R112";
+						description="1st Platoon, 1st Squad Rifleman";
+						isPlayable=1;
+					};
+					id=242;
+					type="rhsusf_army_ocp_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3962.1304,16.98456,3177.7749};
+						angles[]={0,5.371233,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="G11";
+						description="1st Platoon, 1st Squad  Grenadier";
+						isPlayable=1;
+					};
+					id=243;
+					type="rhsusf_army_ocp_grenadier";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3963.4944,16.958429,3176.6799};
+						angles[]={0,5.3771324,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="AR11";
+						description="1st Platoon, 1st Squad Autrorifleman";
+						isPlayable=1;
+					};
+					id=244;
+					type="rhsusf_army_ocp_autorifleman";
+					atlOffset=1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3960.2063,17.116299,3182.9619};
+						angles[]={0,5.4276419,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="call{hint ""The team leader controls the movement of his fire team, along with the rate and placement of fire. He leads from the front and uses the proper commands and signals. The team leader is responsible for accountability, and keeps track of weapons and equipment."";}";
+						name="TL12";
+						description="1st Platoon, 2nd Squad Team Leader";
+						isPlayable=1;
+					};
+					id=247;
+					type="rhsusf_army_ocp_teamleader";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3961.3474,17.102434,3181.9509};
+						angles[]={0,5.3945861,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="R121";
+						description="1st Platoon, 2nd Squad Rifleman";
+						isPlayable=1;
+					};
+					id=248;
+					type="rhsusf_army_ocp_rifleman_m4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3962.6694,17.08778,3180.8359};
+						angles[]={0,5.330689,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="R122";
+						description="1st Platoon, 2nd Squad Rifleman";
+						isPlayable=1;
+					};
+					id=249;
+					type="rhsusf_army_ocp_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3964.3674,17.067116,3179.5359};
+						angles[]={0,5.371233,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="G12";
+						description="1st Platoon, 2nd Squad Grenadier";
+						isPlayable=1;
+					};
+					id=250;
+					type="rhsusf_army_ocp_grenadier";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3965.7314,17.041208,3178.4409};
+						angles[]={0,5.3771324,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="AR12";
+						description="1st Platoon, 2nd Squad Autorifleman";
+						isPlayable=1;
+					};
+					id=251;
+					type="rhsusf_army_ocp_autorifleman";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3964.9851,16.939774,3175.5381};
+						angles[]={0,5.3648105,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="AT11";
+						description="1st Platoon, 1st Squad AT Specialist";
+						isPlayable=1;
+					};
+					id=267;
+					type="rhsusf_army_ocp_maaws";
+					atlOffset=1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3967.2219,17.012661,3177.2991};
+						angles[]={0,5.3648105,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="AT12";
+						description="1st Platoon, 2nd Squad AT Specialist";
+						isPlayable=1;
+					};
+					id=268;
+					type="rhsusf_army_ocp_maaws";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=236;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Spartan One";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item103
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=13;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3971.6609,17.091616,3179.282};
+						angles[]={0,2.3080409,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="call{hint ""The squad leader is the tactical center of the team, and he is responsible for carrying out the mission. He is also responsible for reporting up the chain of command, overseeing the maintenance of his squad’s weapons and equipment, and tactically deploying his squad during missions and patrols.""; }";
+						name="SL21";
+						description="2nd Platoon, 1st Squad Leader";
+						isPlayable=1;
+					};
+					id=254;
+					type="rhsusf_army_ocp_squadleader";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3961.9187,17.242958,3185.5088};
+						angles[]={0,5.4276419,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="call{hint ""The team leader controls the movement of his fire team, along with the rate and placement of fire. He leads from the front and uses the proper commands and signals. The team leader is responsible for accountability, and keeps track of weapons and equipment."";}";
+						name="TL21";
+						description="2nd Platoon, 1st Squad Team Leader";
+						isPlayable=1;
+					};
+					id=255;
+					type="rhsusf_army_ocp_teamleader";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3963.0598,17.228193,3184.4978};
+						angles[]={0,5.3945861,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="R211";
+						description="2nd Platoon, 1st Squad Rifleman";
+						isPlayable=1;
+					};
+					id=256;
+					type="rhsusf_army_ocp_rifleman_m4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3964.3818,17.206417,3183.3828};
+						angles[]={0,5.330689,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="R212";
+						description="2nd Platoon, 1st Squad Rifleman";
+						isPlayable=1;
+					};
+					id=257;
+					type="rhsusf_army_ocp_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3966.0798,17.156538,3182.0828};
+						angles[]={0,5.371233,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="G21";
+						description="2nd Platoon, 1st Squad  Grenadier";
+						isPlayable=1;
+					};
+					id=258;
+					type="rhsusf_army_ocp_grenadier";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3967.4436,17.112787,3180.9878};
+						angles[]={0,5.3771324,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="AR21";
+						description="2nd Platoon, 1st Squad Autrorifleman";
+						isPlayable=1;
+					};
+					id=259;
+					type="rhsusf_army_ocp_autorifleman";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3964.1558,17.326471,3187.2698};
+						angles[]={0,5.4276419,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="call{hint ""The team leader controls the movement of his fire team, along with the rate and placement of fire. He leads from the front and uses the proper commands and signals. The team leader is responsible for accountability, and keeps track of weapons and equipment."";}";
+						name="TL22";
+						description="2nd Platoon, 2nd Squad Team Leader";
+						isPlayable=1;
+					};
+					id=261;
+					type="rhsusf_army_ocp_teamleader";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3965.2966,17.284735,3186.2588};
+						angles[]={0,5.3945861,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="R221";
+						description="2nd Platoon, 2nd Squad Rifleman";
+						isPlayable=1;
+					};
+					id=262;
+					type="rhsusf_army_ocp_rifleman_m4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3966.6187,17.238064,3185.1438};
+						angles[]={0,5.330689,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="R222";
+						description="2nd Platoon, 2nd Squad Rifleman";
+						isPlayable=1;
+					};
+					id=263;
+					type="rhsusf_army_ocp_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3968.3167,17.188417,3183.8438};
+						angles[]={0,5.371233,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="G22";
+						description="2nd Platoon, 2nd Squad Grenadier";
+						isPlayable=1;
+					};
+					id=264;
+					type="rhsusf_army_ocp_grenadier";
+					atlOffset=1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3969.6807,17.169209,3182.7488};
+						angles[]={0,5.3771324,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="AR22";
+						description="2nd Platoon, 2nd Squad Autorifleman";
+						isPlayable=1;
+					};
+					id=265;
+					type="rhsusf_army_ocp_autorifleman";
+					atlOffset=1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3968.9351,17.083857,3179.8459};
+						angles[]={0,5.3648105,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="AT21";
+						description="2nd Platoon, 1st Squad AT Specialist";
+						isPlayable=1;
+					};
+					id=269;
+					type="rhsusf_army_ocp_maaws";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3971.1721,17.149868,3181.6069};
+						angles[]={0,5.3648105,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{hint ""The infantry is the main land combat force and backbone of the Army. They are responsible for defending our country against any threat by land, as well as capturing, destroying and repelling enemy ground forces."";}";
+						name="AT22";
+						description="2nd Platoon, 2nd Squad AT Specialist";
+						isPlayable=1;
+					};
+					id=270;
+					type="rhsusf_army_ocp_maaws";
+					atlOffset=1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=253;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Spartan Two";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item104
+		{
+			dataType="Trigger";
+			position[]={3905.0447,22.248861,3725.4106};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=273;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item105
+		{
+			dataType="Trigger";
+			position[]={4405.1035,17.964481,3724.5933};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=274;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item106
+		{
+			dataType="Trigger";
+			position[]={3404.4946,22.35,3974.7651};
+			class Attributes
+			{
+				condition="call{this}";
+				sizeA=250;
+				sizeB=500;
+				isRectangle=1;
+			};
+			id=275;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item107
+		{
+			dataType="Trigger";
+			position[]={4904.7637,10.310742,3725.5518};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=276;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item108
+		{
+			dataType="Trigger";
+			position[]={4904.8096,20.326439,3225.1328};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=277;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item109
+		{
+			dataType="Trigger";
+			position[]={4403.7676,16.288643,3225.4448};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=278;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item110
+		{
+			dataType="Trigger";
+			position[]={3404.2239,11.366829,3225.0444};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=279;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item111
+		{
+			dataType="Trigger";
+			position[]={3404.4915,12.247526,2724.6758};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=280;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item112
+		{
+			dataType="Trigger";
+			position[]={3903.2097,11.024414,2722.7056};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=281;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item113
+		{
+			dataType="Trigger";
+			position[]={3404.4756,5.3410339,2223.73};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=283;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item114
+		{
+			dataType="Trigger";
+			position[]={3904.9941,11.342852,2222.7578};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=284;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item115
+		{
+			dataType="Trigger";
+			position[]={3404.6094,16.640011,1723.8506};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=285;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item116
+		{
+			dataType="Trigger";
+			position[]={3804.5085,19.226192,1723.0483};
+			class Attributes
+			{
+				sizeA=150;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=286;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item117
+		{
+			dataType="Trigger";
+			position[]={4204.5444,43.751019,1723.0483};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=287;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item118
+		{
+			dataType="Trigger";
+			position[]={3405.0349,11.025718,1223.4756};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=288;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item119
+		{
+			dataType="Marker";
+			position[]={3177.084,6.9219999,2.073};
+			name="OMR";
+			text="Off Map Reinforcements (OMR)";
+			type="Empty";
+			id=289;
+			atlOffset=-0.00035476685;
+		};
+		class Item120
+		{
+			dataType="Trigger";
+			position[]={2904.6475,6.1816282,1411.5225};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=450;
+				isRectangle=1;
+			};
+			id=290;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item121
+		{
+			dataType="Trigger";
+			position[]={2904.6475,0,2311.4492};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=450;
+				isRectangle=1;
+			};
+			id=291;
+			type="EmptyDetectorAreaR250";
+			atlOffset=2.9430468;
+		};
+		class Item122
+		{
+			dataType="Trigger";
+			position[]={2904.6477,5.6433535,3211.3633};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=450;
+				isRectangle=1;
+			};
+			id=292;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item123
+		{
+			dataType="Trigger";
+			position[]={2903.5464,25.626419,4111.7998};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=450;
+				isRectangle=1;
+			};
+			id=293;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item124
+		{
+			dataType="Trigger";
+			position[]={3904.4668,15.650779,4229.4443};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=294;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item125
+		{
+			dataType="Trigger";
+			position[]={4406.3091,17.277508,4225.5645};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=295;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item126
+		{
+			dataType="Trigger";
+			position[]={4906.2178,17.944901,4225.5645};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=296;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item127
+		{
+			dataType="Trigger";
+			position[]={4904.3359,39.638706,4730.5957};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=297;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item128
+		{
+			dataType="Trigger";
+			position[]={4405.2256,16.782234,4725.1426};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=298;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item129
+		{
+			dataType="Trigger";
+			position[]={3902.8269,28.159231,4732.7314};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=299;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item130
+		{
+			dataType="Trigger";
+			position[]={3403.8303,17.945198,4726.6836};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=300;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item131
+		{
+			dataType="Trigger";
+			position[]={2903.4121,29.797434,4911.8501};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=350;
+				isRectangle=1;
+			};
+			id=301;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item132
+		{
+			dataType="Trigger";
+			position[]={1995.9111,38.587952,4651.2695};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=302;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item133
+		{
+			dataType="Trigger";
+			position[]={2503.1191,40.105801,4930.1333};
+			class Attributes
+			{
+				sizeA=150;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=303;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item134
+		{
+			dataType="Trigger";
+			position[]={4071.7043,26.947332,5227.0166};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=304;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item135
+		{
+			dataType="Trigger";
+			position[]={4635.0996,55.074272,5549.6445};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=305;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item136
+		{
+			dataType="Trigger";
+			position[]={4967.3589,29.587845,6151.5625};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=306;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item137
+		{
+			dataType="Trigger";
+			position[]={4072.0974,41.38382,5725.0894};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=307;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item138
+		{
+			dataType="Trigger";
+			position[]={3573.0049,28.486643,5985.8096};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=308;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item139
+		{
+			dataType="Trigger";
+			position[]={4070.6074,30.915907,6222.6919};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=309;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item140
+		{
+			dataType="Trigger";
+			position[]={3573.0049,27.215883,6483.3257};
+			class Attributes
+			{
+				sizeA=250;
+				sizeB=250;
+				isRectangle=1;
+			};
+			id=310;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item141
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3972.2649,17.832355,3206.8008};
+			};
+			id=320;
+			type="ModuleCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=2;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item142
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8819.7373,161.70938,7667.0938};
+			};
+			id=321;
+			type="ModuleCuratorSetAttributesPlayer_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCuratorSetAttributesObject_F_Lock";
+					expression="_this setVariable ['Lock',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCuratorSetAttributesObject_F_Exec";
+					expression="_this setVariable ['Exec',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCuratorSetAttributesObject_F_Fuel";
+					expression="_this setVariable ['Fuel',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCuratorSetAttributesObject_F_UnitPos";
+					expression="_this setVariable ['UnitPos',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCuratorSetAttributesObject_F_Curator";
+					expression="_this setVariable ['Curator',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleCuratorSetAttributesObject_F_Damage";
+					expression="_this setVariable ['Damage',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleCuratorSetAttributesObject_F_Rank";
+					expression="_this setVariable ['Rank',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleCuratorSetAttributesObject_F_RespawnVehicle";
+					expression="_this setVariable ['RespawnVehicle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleCuratorSetAttributesObject_F_Skill";
+					expression="_this setVariable ['Skill',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleCuratorSetAttributesObject_F_RespawnPosition";
+					expression="_this setVariable ['RespawnPosition',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=10;
+			};
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=16;
+		};
+		class Links
+		{
+			items=16;
+			class Item0
+			{
+				linkID=0;
+				item0=165;
+				item1=154;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item1
+			{
+				linkID=1;
+				item0=165;
+				item1=153;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item2
+			{
+				linkID=2;
+				item0=165;
+				item1=81;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item3
+			{
+				linkID=3;
+				item0=165;
+				item1=80;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item4
+			{
+				linkID=4;
+				item0=165;
+				item1=79;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item5
+			{
+				linkID=5;
+				item0=165;
+				item1=157;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item6
+			{
+				linkID=6;
+				item0=165;
+				item1=82;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item7
+			{
+				linkID=7;
+				item0=206;
+				item1=202;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item8
+			{
+				linkID=8;
+				item0=206;
+				item1=203;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item9
+			{
+				linkID=9;
+				item0=206;
+				item1=204;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item10
+			{
+				linkID=10;
+				item0=206;
+				item1=205;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item11
+			{
+				linkID=11;
+				item0=206;
+				item1=207;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item12
+			{
+				linkID=12;
+				item0=206;
+				item1=233;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item13
+			{
+				linkID=13;
+				item0=206;
+				item1=235;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item14
+			{
+				linkID=14;
+				item0=206;
+				item1=227;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item15
+			{
+				linkID=15;
+				item0=225;
+				item1=206;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+		};
+	};
+};
